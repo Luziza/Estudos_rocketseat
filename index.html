@@ -17,6 +17,52 @@
     
     <h1>Teste</h1>
     <p>Informações blablablabla</p>
+
+    <br>
+
+    <table>
+        <caption>descrição da tabela</caption>
+
+        <colgroup>
+            <col>
+            <!--col span: define as colunas pintadas-->
+            <col span="2" style="background-color: purple">
+            <col span="2" style="background-color: greenyellow">
+        </colgroup>
+
+        <thead> 
+            <tr>
+                <th rowspan="2" ></th> <!--rownspan: Coluna ocupe 2 linhas -->
+                <th colspan="2" scope="colgroup">Loja1</th> <!--colspan: Ocupa 2 colunas -->
+                <th colspan="2" scope="colgroup">Loja2</th>
+            </tr>
+
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Volume</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">volume</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Vassouras</th>
+                <td>50</td>
+                <td>18</td>
+                <td>30</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Camisas</th>
+                <td>50</td>
+                <td>18</td>
+                <td>30</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+
     
 </body>
 </html>
