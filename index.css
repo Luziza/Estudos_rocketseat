@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
 *{
     margin: 0;
 }
@@ -15,6 +17,7 @@ body{
     color: white;
     margin-left: 40%;
     font-size: 60px;
+    font-family: Akshar;
 
 }
 #tab{
