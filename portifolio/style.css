@@ -1,0 +1,19 @@
+body{
+    background-color: #000000;
+}
+
+.box_1{
+    background-color: #52057B;
+    width: 200px;
+    height: 200px;
+    margin: 2%;
+    border-radius: 15px;
+}
+
+#perfil{
+    height: 100px;
+    width: 100px;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 50px;
+}
