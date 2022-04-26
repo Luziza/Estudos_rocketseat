@@ -1,19 +1,40 @@
 body{
-    background-color: #000000;
+    background-color: #18171D;
+    color: #BC6FF1;
 }
 
-.box_1{
+.box_foto{
     background-color: #52057B;
-    width: 200px;
+    width: 280px;
     height: 200px;
     margin: 2%;
     border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
 }
 
 #perfil{
-    height: 100px;
-    width: 100px;
-    margin-left: 25%;
+    height: 110px;
+    width: 110px;
+    margin-left: 29%;
     margin-top: 5%;
     border-radius: 50px;
+}
+
+.box_info{
+    background-color: #52057B;
+    width: 280px;
+    height: 350px;
+    margin-left: 2%;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+}
+
+ul{
+    margin-left: 10%;
+}
+
+li{
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 20px;
 }
