@@ -5,8 +5,8 @@ body{
 
 .box_foto{
     background-color: #52057B;
-    width: 280px;
-    height: 200px;
+    width: 330px;
+    height: 220px;
     margin: 2%;
     border-radius: 15px;
     box-shadow: 5px 2px 2px #230334;
@@ -22,7 +22,7 @@ body{
 
 .box_info{
     background-color: #52057B;
-    width: 280px;
+    width: 330px;
     height: 350px;
     margin-left: 2%;
     border-radius: 15px;
@@ -37,4 +37,30 @@ li{
     font-size: 20px;
     line-height: 40px;
     margin-top: 20px;
+}
+
+.box_3{
+    background-color: #52057B;
+    width: 330px;
+    height: 210px;
+    margin-left: 2%;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: -8px;
+    margin-left: 15px;
+}
+th{
+    background-color: #230334;
+    border-radius: 13px;
+    line-height: 40px;
+    font-size: 10px;
+    border-left-width: 2;
+    min-width: 100px;
+    
+
 }
