@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Merriweather+Sans:ital,wght@1,500;1,600&display=swap');
 body{
     margin: 0;
     display: grid;
@@ -9,6 +10,7 @@ body{
     grid-template-columns: 25% 1fr;
     background-color: #18171D;
     color: #BC6FF1;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 main{
@@ -24,7 +26,7 @@ main{
     box-shadow: 5px 2px 2px #230334;
 }
 
-#perfil{
+.perfil{
     height: 120px;
     width: 120px;
     margin-left: 30%;
@@ -99,11 +101,13 @@ aside{
     background-color: #52057B;
     border-radius: 15px;
     margin-right: 1%;
+    box-shadow: 5px 2px 2px #230334;
 }
 
 .caixa2{
     background-color: #52057B;
     border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
 }
 
 .separar{
@@ -111,3 +115,14 @@ aside{
     justify-content: space-between;
 }
 
+.box_erro{
+    background-color: #52057B;
+    margin: 3%;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+}
+
+.imagem{
+    margin: 5%;
+}
