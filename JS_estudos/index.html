@@ -1,3 +1,27 @@
-<script>
-    console.log('Bem vindos')
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="eventos.js"></script>
+    <title>Document</title>
+</head>
+<body onload = "carreguei()" onresize = "redimensionei()">
+    <h2>Eventos de Loads</h2>
+
+    <br>
+    <br>
+
+    <h2>Log de ocorrencias</h2>
+    <div id="log">
+        </div>
+
+    <br>
+    <h2>Eventos de click</h2>
+    <img src="imagens/perfil.jpg" width="250px" height="200px" id="imagens" 
+    onclick="umClique()" ondblclick="doisCliques()">
+        
+    </div>
+</body>
+</html>
