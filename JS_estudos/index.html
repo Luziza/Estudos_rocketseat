@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="eventos.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
 </head>
 <body onload = "carreguei()" onresize = "redimensionei()">
@@ -24,18 +25,27 @@
         
     </div>
 
-    <h2>Eventos Input</h2>   
+    <h2>Eventos Input</h2>  
+    <div> 
     <!--Se tusa return em onSubmit pq ele precisa fazer algumas verificaçoes 
         antes de submeter o formulario, como, se os dados ali foram mesmo preenchidos-->
     <form name="FormTeste" onsubmit="return submeti()" onreset="resetei()">
-        <label for="name">Name:</label> <input type="text" id="nome" name="nome" onblur="saiDoCampo()" 
+        <label for="name">Name:</label> 
+        <input type="text" id="nome" name="nome" onblur="saiDoCampo()" 
         onchange="mudei()" onfocus="entreiNoCampo()" onselect="selecionei()" onkeydown="teclaBaixo()" 
-        onkeyup="teclaCims()">
+        onkeyup="teclaCima()">
         <br>
         <button type="submit">Enviar</button>
         <button type="reset">Limpar</button>
-
-
     </form>
+    </div>
+
+    <div>
+        <h2>Eventos de Mouse</h2>
+        <div id="cores" onmouseover="sobre()" onmousedown="paraBaixo()" 
+        onmousemove="movendo()" onmouseout="saindo()" onmouseup="paraCima()"> 
+    </div>
+    <br>
+    </div>
 </body>
 </html>

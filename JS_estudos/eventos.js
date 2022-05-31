@@ -61,3 +61,27 @@ function submeti(){
   function teclaCima(){
     document.getElementById("log").innerHTML += "tecla para cima<br>";
   }
+
+//------------------------------------------------------------------------------//
+//EVENTOS MOUSE
+//onMouseOver = mouse passando por cima
+//onMouseOut = mouse saindo de cima
+//onMouseDown = pressiona algo em algo
+//onMouseUp = soltando algo
+//onMouseMove = movimentando o mouse sobre o elemento
+
+function sobre(){
+    document.getElementById("log").innerHTML += "mouse em cima<br> ";
+  }
+function paraBaixo(){
+    document.getElementById("log").innerHTML += "mouse pressionado <br> ";
+  }
+function movendo(){
+    document.getElementById("log").innerHTML += "mouse se movendo<br>";
+  }
+function saindo(){
+    document.getElementById("log").innerHTML += "mouse saindo<br>";
+  }
+function paraCima(){
+    document.getElementById("log").innerHTML += "mouse solta<br>";
+  }
