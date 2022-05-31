@@ -24,3 +24,40 @@ function doisCliques(){
     document.getElementById("imagens").src="imagens/perfil.jpg";
     document.getElementById("log").innerHTML += "Perfil 1 <br>"
 }
+
+//----------------------------------------------------------------------------------------------//
+//EVENTOS INPUT
+//onBlur = Quando você sai do campo de input
+//onFocus = Quando vc entra no campo
+//onChange = mudança de conteudo do campo
+//onSelect = quando o texto é selecionado
+//onSubmit = quando o formulario é submetido, quando clicamos em enviar formulario
+//onReset = botao de reset é clicado
+//onKeyDown = digita algo, pressiona a tela
+//onKeyUp = solta a tecla
+
+function submeti(){
+    document.getElementById("log").innerHTML += "submeti<br>";
+    return false;
+  }
+  function resetei(){
+    document.getElementById("log").innerHTML += "resetei<br>";
+  }
+  function saiDoCampo(){
+    document.getElementById("log").innerHTML += "sai do campo<br>";
+  }
+  function mudei(){
+    document.getElementById("log").innerHTML += "mudei<br>";
+  }
+  function entreiNoCampo(){
+    document.getElementById("log").innerHTML += "entrei no campo<br>";
+  }
+  function selecionei(){
+    document.getElementById("log").innerHTML += "selecionei<br>";
+  }
+  function teclaBaixo(){
+    document.getElementById("log").innerHTML += "tecla para baixo<br>";
+  }
+  function teclaCima(){
+    document.getElementById("log").innerHTML += "tecla para cima<br>";
+  }
