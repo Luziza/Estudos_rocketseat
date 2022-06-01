@@ -71,17 +71,36 @@ function submeti(){
 //onMouseMove = movimentando o mouse sobre o elemento
 
 function sobre(){
-    document.getElementById("log").innerHTML += "mouse em cima<br> ";
+    document.getElementById("cores").style.backgroundColor="red";
+    document.getElementById("log").innerHTML += "mouse em cima<br> cor vemelha ";
   }
 function paraBaixo(){
-    document.getElementById("log").innerHTML += "mouse pressionado <br> ";
+    document.getElementById("cores").style.backgroundColor="green";
+    document.getElementById("log").innerHTML += "mouse pressionado <br> cor verde ";
   }
 function movendo(){
-    document.getElementById("log").innerHTML += "mouse se movendo<br>";
+    document.getElementById("cores").style.backgroundColor="pink";
+    document.getElementById("log").innerHTML += "mouse se movendo<br> cor rosa" ;
   }
 function saindo(){
-    document.getElementById("log").innerHTML += "mouse saindo<br>";
+    document.getElementById("cores").style.backgroundColor="blue";
+    document.getElementById("log").innerHTML += "mouse saindo<br> cor azul";
   }
 function paraCima(){
-    document.getElementById("log").innerHTML += "mouse solta<br>";
+    document.getElementById("cores").style.backgroundColor="yellow";
+    document.getElementById("log").innerHTML += "mouse solta<br> cor amarela";
   }
+
+//--------------------------------------------------------------------------------//
+//VALIDAÇÃO
+function submeti(){
+  if (document.getElementById("nome").value == ""){
+  alert("Preencha este campo.");
+  document.getElementById("nome").style.borderColor = "red";
+  document.getElementById("nome").style.background = "#ffe5e5";
+  document.getElementById("nome").focus();
+  return false;
+  }
+  return true;
+
+}
