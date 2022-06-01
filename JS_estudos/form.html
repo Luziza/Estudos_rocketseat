@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>IMC</h1>
-    <form onSubmit="return formTeste()">
+    <form onsubmit="return formTeste()">
         <label for="name">Peso:</label>
         <input type="text" id="peso" name="peso">
         <br>
@@ -17,6 +17,14 @@
         <input type="text" id="altura" name="altura">
         <button type="submit">Enviar</button>
         <button type="reset">Limpar</button>
+    </form>
+
+    <h1>Letras</h1>
+    <form>
+        <label for="peso">Texto</label>
+        <textarea type="text" id="texto" rows="10" cols="100" onkeyup="maiuscula()"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
