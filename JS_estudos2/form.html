@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <fieldset>
+            <legend>Dados</legend>
+            <label for="">Nome</label>
+            <br>
+            <input type="text"
+            placeholder="Digite seu nome"
+            required>
+
+            <br>
+            <br>
+
+            <label>Senha</label>
+            <br>
+
+            <input type="password"
+            pattern = "[0-9a-zA-Z]{4,8}"
+            title="Digite numeros de 0 a 9 ou letras de A a Z. 
+            Minimo 4 e máximo 8 caracteres"
+            placeholder = "Digite sua senha"
+            required
+            autocomplete="on">
+
+            <br>
+            <br>
+
+            
+            <label>Email</label>
+            <br>
+            <datalist id="emaillist">
+                <option>luiza@rocketseat.com.br</option>
+            </datalist>
+            <input type="email"
+            list="emaillist"
+            placeholder="Digite seu email"
+            required
+            pattern=".+rocketseat\.com\.br"
+            title="obrigatoriamente ter @rocketseat.com.br"
+            >
+
+            <br>
+            <br>
+
+            <label>File</label>
+            <br>
+            <input type="file"
+            accept=".pdf"
+            multiple>
+
+            <br>
+            <label>Cor</label>
+            <input type="color">
+
+            <br>
+
+            <label for="texto">Texto</label>
+            <textarea id="texto"></textarea>
+
+            <br>
+            <input type="range" step="5" min="1" max="100">
+
+            <br>
+            <input type="datetime-local">
+            <input type="date">
+            <input type="month">
+            <input type="week">
+            <BR>
+            <input type="time">
+            <br>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+
+    </form>
+    
+    <script src="./form.js"></script>
+
+</body>
+</html>
