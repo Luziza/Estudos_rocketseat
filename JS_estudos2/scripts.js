@@ -12,14 +12,42 @@ if (nota < 6){
     console.log("A")
 }
 
-//let salario = sum[1200, 1250, 1200]
-//let gasto = sum[130, 1234.50, 300, 500]
+//---------------------------------------------------------------
+// let salario = sum[1200, 1250, 1200] -> pq n funciona?
 
-//if((salario - gasto) > 0){
-//    console.log("Seu saldo está positivo")
-//}else{
-//    console.log("Seu saldo está negativo")
-//}
+
+
+function sum(salario, gasto){
+    salario = [1200, 1250, 1200]
+    gasto = [130, 1234.50, 300, 500]
+
+    let total = 0
+
+    for(let value of salario){
+        total += value
+        
+    }
+    console.log(total)
+
+    let total1 = 0
+
+    for(let value of gasto){
+        total1 += value
+        
+    }
+    console.log(total1)
+
+    if ((total - total1) > 0){
+        console.log("Seu saldo está positivo")
+    }else{
+        console.log("Seu saldo está negativo")
+    }
+    
+}
+
+sum()
+
+
 
 
 //------------------------------------------------------------------
@@ -91,5 +119,5 @@ console.log(booksByCategory.length)
 
 for(let category of booksByCategory){
     console.log(category.books.length)
-    console.log(category.author.length)
+    //console.log(category.author.length)
 }

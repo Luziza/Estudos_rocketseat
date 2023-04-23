@@ -81,3 +81,9 @@ console.log(felicidade)
 
 //--------------------------------------------------------
 
+const h1 = document.querySelector('h1')
+console.log(h1)
+h1.setAttribute('id', 'h1') //obs: por o scripts por ultimo pois ele le os scripts sem ler o conteudo da pagina se estiver em primeiro
+
+const h1ID = document.querySelector('#h1')
+console.log(h1ID)
